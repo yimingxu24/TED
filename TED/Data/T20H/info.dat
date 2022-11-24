@@ -1,0 +1,34 @@
+node.dat
+
+TYPE	MEANING
+0		Company
+1		Event
+2		Item
+3		Person
+
+Attribute Dimension: 300
+
+-----------------------------------------------
+
+link.dat
+
+LINK	START	END	MEANING
+0		0		0	transaction
+1		0		1	infoChange
+2		0		2	companySellItem
+3		2		0	companyBuyItem
+4		0		3	personCompany
+5		2		2	belongTo
+
+
+Targeting: Link Type (0,0,0)
+
+-----------------------------------------------
+
+label.dat
+
+TYPE	CLASS	MEANING
+0		0		negativeCompany(Normal companies)
+0		1		positiveCompany(Tax evasion companies)
+
+Targeting: Label Type 0
