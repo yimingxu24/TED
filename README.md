@@ -38,3 +38,19 @@ More detail in ```Evaluate``` folder.
 
 ## Dependencies
 Install dependencies: ```install -r requirement.txt```
+
+
+## Reference
+If you find this repository useful in your research, please consider citing the following paper:
+```
+@article{xu2025ted,
+  title={TED: related party transaction guided tax evasion detection on heterogeneous graph},
+  author={Xu, Yiming and Shi, Bin and Dong, Bo and Wang, Jiaxiang and Wei, Hua and Zheng, Qinghua},
+  journal={Data Mining and Knowledge Discovery},
+  volume={39},
+  number={2},
+  pages={15},
+  year={2025},
+  publisher={Springer}
+}
+```
